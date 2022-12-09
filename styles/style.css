@@ -23,13 +23,15 @@ div {
   max-height: 756px;
   background-color: #f2f2f2;
   margin-bottom: 100px;
+  position: relative;
+  display: grid;
   /* выше установили ограничения для секции */
 }
 
 .header__logo_place {
   position: absolute;
-  margin-top: 30px;
-  margin-left: 64px;
+  left: 64px;
+  top: 30px;
   width: 228px;
   height: 32px;
   font-weight: 600;
@@ -37,19 +39,22 @@ div {
 }
 
 .header__title {
-  display: inline-flex;
-  margin-left: 64px;
-  margin-top: 250px;
+  display: flex;
+  width: 730px;
+  position: absolute;
+  left: 64px;
+	align-self: center;
+  line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  line-height: 96px;
+  z-index: 3;
 }
 
 .header__subtitle {
   position: absolute;
-  width: 388px;
   left: 64px;
-  bottom: 240px;
+  bottom: 30px;
+  width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -58,6 +63,9 @@ div {
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__main-illustration{
@@ -65,7 +73,7 @@ width: 765px;
 height: 608px;
 position: absolute;
 right: 0;
-bottom: 210px;
+bottom: 0;
 z-index: 2;
 }
 
@@ -89,26 +97,29 @@ z-index: 2;
 }
 
 .discription {
-  margin-top: 100px;
-  height: 300px;
+  width: 1600px;
+  height: auto;
 }
 
 .two-columns{
   width: 80%;
   min-width: 764px;
   display: flex;
-  justify-content: center;
-  margin-left: 100px;
+  position: absolute;
+  
 
+
+
+  
 }
 
 .two-columns__brief {
   width: 175px;
-
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+ 
 }
 
 .two-columns__main-text_paragraph {
