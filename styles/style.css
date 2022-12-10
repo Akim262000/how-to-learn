@@ -207,24 +207,36 @@ z-index: 2;
 
 .feynman__title {
   width: 648px;
-  height: auto;
+  height: fit-content;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
   border: 1px solid red;
+  line-height: 1.15;
+  font-size: 120px;
+  font-style: normal;
 }
 
 .feynman__subtitle {
+  height: fit-content;
+  line-height: 51px;
+  font-size: 36px;
   display: flex;
-  justify-content: center;
-  
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
   border: 1px solid red;
+
 }
 
 .feynman__link {
   position: absolute;
   right: 48px;
   top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
   border: 1px solid red;
 }
 /* и элемента с модификатором вида ключ-значение */
