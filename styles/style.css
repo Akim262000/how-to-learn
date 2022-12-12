@@ -320,10 +320,39 @@ z-index: 2;
 
 .columns {
   width: 90%;
-  flex-basis: 711px;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin: 60px auto 40px;
   display: flex;
   justify-content: space-between;
-  
+  position: relative;
+  }
+
+.footer__column_content_copyright{
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  display: flex;
+  justify-content: flex-start;
+  width: 228px;
+  height: 32px;
+  border: 1px solid red;
+}
+
+.footer__author {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 18px 0;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__column-link {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid red;
 }
