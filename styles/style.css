@@ -316,6 +316,10 @@ z-index: 2;
 
 .footer {
   min-height: 350px;
+  background-color: #1f1f1f;
+  color: white;
+  overflow: hidden;
+  
 }
 
 .columns {
@@ -355,4 +359,21 @@ z-index: 2;
   margin-top: 0;
   margin-bottom: 0;
   border: 1px solid red;
+  text-decoration: none;
+  
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgb(255, 0, 0);
+  margin-right: 10px;
+}
+
+.footer__column_content_info { 
+
+}
+
+.footer__column_content_social {
+  style-color: white;
 }
