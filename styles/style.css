@@ -1,11 +1,3 @@
-div {
-
-}
-
-.word {
-  font-weight: 600;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -28,34 +20,27 @@ div {
   /* выше установили ограничения для секции */
 }
 
-<<<<<<< HEAD
 .logo_place {
   width: 228px;
   height: 32px;
 }
 
-=======
->>>>>>> 5927bc6a3919dacb9852b31023059d2346ba61e1
 .logo_place_header {
   position: absolute;
   left: 64px;
   top: 30px;
-<<<<<<< HEAD
-=======
-  width: 228px;
->>>>>>> 5927bc6a3919dacb9852b31023059d2346ba61e1
 }
 
 .header__title {
   display: flex;
   width: 730px;
-  position: absolute;
-  left: 64px;
 	align-self: center;
   line-height: 96px;
   font-size: 102px;
   font-style: 600;
   z-index: 3;
+  margin: 0;
+  margin-left: 64px;
 }
 
 .header__subtitle {
@@ -65,8 +50,9 @@ div {
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
   z-index: 3;
+  margin: 0;
 }
 
 .header__link {
@@ -99,11 +85,7 @@ div {
 /* .discription {
 } */
 
-<<<<<<< HEAD
 .two-columns {
-=======
-.description__two-columns {
->>>>>>> 5927bc6a3919dacb9852b31023059d2346ba61e1
   display: flex;
   width: 80%;
   margin: auto;
@@ -114,7 +96,7 @@ div {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
   color: #2f80ed;
   margin: 0;
  }
@@ -124,11 +106,8 @@ div {
   width: 80%;
  }
 
-<<<<<<< HEAD
  .two-columns_paragraph{
-=======
- .main-text_paragraph{
->>>>>>> 5927bc6a3919dacb9852b31023059d2346ba61e1
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
@@ -289,11 +268,7 @@ div {
   z-index: 1;
 }
 
-<<<<<<< HEAD
 .kaufman__triangle {
-=======
-.triangle {
->>>>>>> 5927bc6a3919dacb9852b31023059d2346ba61e1
   position: absolute;
   top: 0;
   right: -270px;
@@ -322,11 +297,6 @@ div {
 }
 
 .logo_place_footer {
-<<<<<<< HEAD
-=======
-  width: 228px;
-  height: 32px;
->>>>>>> 5927bc6a3919dacb9852b31023059d2346ba61e1
 }
 
 .footer__author {
