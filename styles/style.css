@@ -15,7 +15,8 @@ div {
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  
+  max-width: 100%; 
+  overflow-x: hidden; 
 }
 /* блок header */
 .header {
@@ -34,7 +35,6 @@ div {
   left: 64px;
   top: 30px;
   width: 228px;
-
 }
 
 .header__title {
@@ -57,6 +57,7 @@ div {
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
+  z-index: 3;
 }
 
 .header__link {
@@ -75,7 +76,6 @@ div {
   bottom: 0;
   z-index: 2;
 }
-
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
@@ -85,13 +85,10 @@ div {
   width: 568px;
   background-color: #2f80ed;
   z-index: 1;
-  
 }
 /* блок discription */
-.discription {
-  display: grid;
-  justify-content: center;
-}
+/* .discription {
+} */
 
 .description__two-columns {
   display: flex;
@@ -106,6 +103,7 @@ div {
   font-size: 18px;
   font-style: normal;
   color: #2f80ed;
+  margin: 0;
  }
 
  .two-columns__main-text {
@@ -125,17 +123,6 @@ div {
   font-weight: 600;
 }
 /* блок digits */
-.digits {
-}
-
-/* .section-title {
-  width: 60%;
-  margin: 100px auto 20px;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-style: 600;
-} */
 
 .section-subtitle {
   margin: 20px auto 0;
@@ -144,7 +131,6 @@ div {
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
-
 }
 
 .table {
@@ -163,7 +149,7 @@ div {
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  }
+}
 
 .table__heading {
   line-height: 1.15;
@@ -215,7 +201,6 @@ div {
   font-size: 36px;
   font-style: normal;
 }
-
 
 .feynman__link {
   position: absolute;
@@ -272,7 +257,6 @@ div {
   z-index: 1;
 }
 
-
 .table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
@@ -293,7 +277,7 @@ div {
   top: 0;
   right: -270px;
   z-index: 0;
-  }
+}
 
 /* блок footer */
 .footer {
@@ -301,7 +285,6 @@ div {
   background-color: #1f1f1f;
   color: white;
   overflow: hidden;
-  
 }
 
 .columns {
@@ -311,7 +294,7 @@ div {
   justify-content: space-between;
   position: relative;
   min-height: 230px;
-  }
+}
 
 .footer__column_content_copyright{
   flex-basis: 711px;
@@ -346,10 +329,9 @@ div {
   margin-bottom: 20px;
 }
 
-.footer__column_content_social{
+/* .footer__column_content_social{
   
-}
-
+} */
 
 .footer__social-icon {
   width: 16px;
