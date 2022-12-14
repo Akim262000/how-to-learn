@@ -274,6 +274,10 @@
 
 .kaufman__triangle {
   position: absolute;
+  background-image: url(../images/kaufman-triangle.svg);
+  width: 877px;
+  height: 877px;
+  background-size: contain;
   top: 0;
   right: -270px;
   z-index: 0;
@@ -299,7 +303,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 /* .logo_place_footer {
