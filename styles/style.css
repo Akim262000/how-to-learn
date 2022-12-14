@@ -20,7 +20,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo_place {
+.logo{
   width: 228px;
   height: 32px;
 }
@@ -34,9 +34,9 @@
 .header__title {
   display: flex;
   width: 730px;
-	align-self: center;
   line-height: 96px;
   font-size: 102px;
+  align-self: center;
   font-style: 600;
   z-index: 3;
   margin: 0;
@@ -51,7 +51,7 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: normal;
   z-index: 3;
 }
 
@@ -236,6 +236,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+   z-index: 1;
 }
 
 .table__heading_theme_dark {
@@ -277,7 +278,7 @@
   background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
-  background-size: contain;
+  background-size: 877px 877px;
   top: 0;
   right: -270px;
   z-index: 0;
@@ -285,10 +286,10 @@
 
 /* блок footer */
 .footer {
+  display: flex;
   min-height: 350px;
   background-color: #1f1f1f;
   color: white;
-  overflow: hidden;
 }
 
 .footer__columns {
@@ -300,9 +301,12 @@
 
 .footer__column_content_copyright{
   flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.footer__column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 /* .logo_place_footer {
@@ -317,16 +321,20 @@
 
 .footer__column-heading {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
 .footer__column-links {
-  list-style-type: none;
-  padding-left: 0;
   margin-top: 20px;
+  align-content: flex-end;
+}
+.footer__column-links ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
 }
 
 .footer__column-link {
