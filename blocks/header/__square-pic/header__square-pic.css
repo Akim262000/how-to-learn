@@ -6,4 +6,17 @@
     width: 568px;
     background-color: #2f80ed;
     z-index: 1;
+    animation-name: square-pic;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
+
+@keyframes square-pic {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}

@@ -6,5 +6,6 @@
     margin-bottom: 100px;
     position: relative;
     display: grid;
+    overflow: hidden;
     /* выше установили ограничения для секции */
 }
