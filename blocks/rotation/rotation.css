@@ -1,15 +1,15 @@
 .rotation {
-    animation-name: rotation_circle;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
+  animation-name: rotation_circle;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
 }
 
 @keyframes rotation_circle {
-    from {
-      rotate: 0deg;
-    }
-    to {
-      rotate: 360deg;
-    }
+  from {
+    rotate: 0deg;
   }
+  to {
+    rotate: 360deg;
+  }
+}
