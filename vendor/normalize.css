@@ -347,8 +347,3 @@ template {
 [hidden] {
   display: none;
 }
-
-a:hover {
-  opacity: .6;
-  transition: ease;
-}
