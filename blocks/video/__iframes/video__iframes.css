@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  border: 2px solid red;
   position: relative;
   top: 50px;
 }
