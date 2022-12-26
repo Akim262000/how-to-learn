@@ -9,7 +9,7 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
   }
 
-  a:hover {
+  .link_animation:hover {
     opacity: .6;
-    transition: ease;
+    transition-timing-function: linear;
   }
