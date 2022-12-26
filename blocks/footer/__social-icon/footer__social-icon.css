@@ -3,3 +3,9 @@
   height: 16px;
   margin-right: 10px;
 }
+
+.footer__social-icon:hover {
+  opacity: .5;
+  transition-timing-function: linear;
+  transition-duration: 2s;
+}

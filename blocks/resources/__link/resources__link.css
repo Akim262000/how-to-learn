@@ -4,6 +4,7 @@
 }
 
 .resources__link:hover {
-  opacity: .6;
+  opacity: .5;
   transition-timing-function: linear;
+  transition-duration: 2s;
 }
