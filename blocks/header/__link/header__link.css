@@ -5,3 +5,8 @@
   font-size: 18px;
   font-style: normal;
 }
+
+.header__link:hover {
+  opacity: .6;
+  transition-timing-function: linear;
+}

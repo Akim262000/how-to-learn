@@ -7,9 +7,4 @@
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
-  }
-
-  .link_animation:hover {
-    opacity: .6;
-    transition-timing-function: linear;
-  }
+}
